@@ -1,0 +1,227 @@
+* {
+    top: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+}
+
+#netflix-logo {
+    position: absolute;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 60px;
+    background-color: rgba(0,0,0,0);
+}
+
+#navbar {
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    width: 300px;
+    word-spacing: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding-top: 7px;
+    padding-left: 10px;
+    background-color: rgba(0,0,0,0);
+}
+
+#banner-image {
+    width: 100%;
+}
+
+#netflix-symbol {
+    position: absolute;
+    width: 20px;
+    margin-left: 75px;
+    margin-top: 500px;
+    background-color: rgba(0,0,0,0);
+}
+
+#show {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 4px;
+    position: absolute;
+    width: 15px;
+    margin-left: 80px;
+    margin-top: 500px;
+    padding-left: 30px;
+    padding-top: 7px;
+    background-color: rgba(0,0,0,0);
+}
+
+#show-name {
+    position: absolute;
+    font-size: 150px;
+    color: white;
+    font-weight: bold;
+    width: 20px;
+    margin-left: 65px;
+    margin-top: 500px;
+    padding-top: 25px;
+    background-color: rgba(0,0,0,0);
+}
+
+.btn-1 {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    margin-left: 75px;
+    margin-top: 700px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.btn-2 {
+    position: absolute;
+    width: 145px;
+    height: 40px;
+    margin-left: 180px;
+    margin-top: 700px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.5);
+}
+
+#play {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+}
+
+#info {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+}
+
+#name-1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    padding-left: 195px;
+    padding-top: 30px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#name-2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    padding-left: 195px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+#name-3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    padding-left: 195px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+#name-4 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    padding-left: 195px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+}
+
+.social-icons {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 350px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-links .column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+
+#profile {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1600px;
+}

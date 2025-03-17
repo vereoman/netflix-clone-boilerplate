@@ -5,123 +5,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div>
-            <img id="netflix-logo" src="./assets/NetflixLogoSvg.png">
-            <p id="navbar">Start Shows Movies New MyList</p>
-        </div>
-        
-        <div>
-            <img id="profile" src="./assets/ProfileIMG.png">
-        </div>
-    </header>
+    <div class="main-container">
+        <header>
+            <div class="left-header">
+                <img id="netflix-logo" src="./assets/NetflixLogoSvg.png" alt="Netflix Logo">
+                <nav>
+                    <ul id="navbar">
+                        <li><a href="#">Start</a></li>
+                        <li><a href="#">Shows</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">My List</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="right-header">
+                <div class="search-icon">
+                    <img src="./assets/search-icon.png" alt="Search">
+                </div>
+                <div class="gift-icon">
+                    <img src="./assets/gift-icon.png" alt="Gift">
+                </div>
+                <div class="notification-icon">
+                    <img src="./assets/notification-icon.png" alt="Notifications">
+                </div>
+                <div class="profile-container">
+                    <img id="profile" src="./assets/ProfileIMG.png" alt="Profile">
+                </div>
+            </div>
+        </header>
 
-    <div>
-        <img id="netflix-symbol"src="./assets/Netflix_Symbol_RGB 1.png">
-        <p id="show">SHOW</p>
-        <h1 id="show-name">MAID</h1>
-        <button class="btn-1">
-            <p id="play">Play</p>
-        </button>
-        <button class="btn-2">
-            <p id="info">More info</p>
-        </button>
-    </div>
+        <div class="hero-container">
+            <div class="hero-background">
+                <img id="banner-image" src="./assets/Title-Image.png" alt="Maid Banner">
+            </div>
+            
+            <div class="content-overlay">
+                <div class="show-label">
+                    <img id="netflix-symbol" src="./assets/Netflix_Symbol_RGB 1.png" alt="Netflix Symbol">
+                    <p id="show">SHOW</p>
+                </div>
+                
+                <h1 id="show-name">MAID</h1>
+                
+                <div class="action-buttons">
+                    <button class="btn play-btn">
+                        <img src="./assets/play-icon.png" alt="">
+                        <span>Play</span>
+                    </button>
+                    <button class="btn info-btn">
+                        <img src="./assets/info-icon.png" alt="">
+                        <span>More Info</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    <div class="content-wrapper">
+        <div class="see-again section">
+            <div class="section-header">
+                <h2>See again <span class="arrow">›</span></h2>
+            </div>
+            <div class="content-row">
+                <div class="content-item">
+                    <div class="badge new">NEW EPISODES</div>
+                    <img src="./assets/section 1.1.png" alt="You">
+                </div>
+                <div class="content-item">
+                    <img src="./assets/section 1.2.png" alt="Snowpiercer">
+                </div>
+                <div class="content-item">
+                    <img src="./assets/section 1.3.png" alt="Our Universe">
+                </div>
+                <div class="content-item">
+                    <img src="./assets/section 1.4.png" alt="The Last Kingdom">
+                </div>
+                <div class="content-item">
+                    <img src="./assets/section 1.5.png" alt="Money Heist">
+                </div>
+            </div>
+        </div>
+        
+        <div class="top-ten section">
+            <div class="section-header">
+                <h2>Top 10 in your country <span class="arrow">›</span></h2>
+            </div>
+            <div class="content-row">
+                <div class="ranked-item">
+                    <img class="rank" src="./assets/Rank - 01.png" alt="Rank 1">
+                    <img class="content" src="./assets/section 2.1.png" alt="Red Notice">
+                </div>
+                <div class="ranked-item">
+                    <img class="rank" src="./assets/Rank - 02.png" alt="Rank 2">
+                    <img class="content" src="./assets/section 2.2.png" alt="Jason Bourne">
+                </div>
+                <div class="ranked-item">
+                    <img class="rank" src="./assets/Rank - 03.png" alt="Rank 3">
+                    <img class="content" src="./assets/section 2.3.png" alt="Squid Game">
+                </div>
+                <div class="ranked-item">
+                    <img class="rank" src="./assets/Rank - 04.png" alt="Rank 4">
+                    <img class="content" src="./assets/section 2.4.png" alt="Central Intelligence">
+                </div>
+                <div class="ranked-item">
+                    <img class="rank" src="./assets/Rank - 05.png" alt="Rank 5">
+                    <img class="content" src="./assets/section 2.5.png" alt="Hellbound">
+                </div>
+            </div>
+        </div>
+        
+        <div class="trending section">
+            <div class="section-header">
+                <h2>Trending now <span class="arrow">›</span></h2>
+            </div>
+            <div class="content-row">
+                <div class="content-item">
+                    <div class="badge episode">NEW EPISODE</div>
+                    <img src="./assets/section 3.1.png" alt="Explained">
+                </div>
+                <div class="content-item">
+                    <img src="./assets/section 3.2.png" alt="Into The Night">
+                </div>
+                <div class="content-item">
+                    <div class="badge episodes">NEW EPISODES</div>
+                    <img src="./assets/section 3.3.png" alt="Locke & Key">
+                </div>
+                <div class="content-item">
+                    <img src="./assets/section 3.4.png" alt="Queen's Gambit">
+                </div>
+                <div class="content-item">
+                    <img src="./assets/section 3.5.png" alt="The Crown">
+                </div>
+            </div>
+        </div>
+        
+        <div class="sci-fi section">
+            <div class="section-header">
+                <h2>Sci-fi shows <span class="arrow">›</span></h2>
+            </div>
+            <div class="content-row">
+                <div class="content-item">
+                    <img src="./assets/section 4.1.png" alt="Altered Carbon">
+                </div>
+                <div class="content-item">
+                    <img src="./assets/section 4.2.png" alt="Another Life">
+                </div>
+                <div class="content-item">
+                    <img src="./assets/section 4.3.png" alt="The Umbrella Academy">
+                </div>
+                <div class="content-item">
+                    <img src="./assets/section 4.4.png" alt="Sense 8">
+                </div>
+                <div class="content-item">
+                    <img src="./assets/section 4.5.png" alt="The Rain">
+                </div>
+            </div>
+        </div>
 
-    <div>
-        <div>
-            <img id="banner-image" src="./assets/Title-Image.png">
-        </div>
-
-    <div>
-        <p id="name-1">See again &gt</p>
-    <section class="section-1">
-        <img src="./assets/section 1.1.png">
-        <img src="./assets/section 1.2.png">
-        <img src="./assets/section 1.3.png">
-        <img src="./assets/section 1.4.png">
-        <img src="./assets/section 1.5.png">
-    </section>
+        <footer>
+            <div class="social-icons">
+                <a href="#"><img src="./assets/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./assets/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="./assets/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="./assets/youtube.png" alt="YouTube"></a>
+            </div>
+            <div class="footer-links">
+                <div class="column">
+                    <a href="#">Seslendirme ve Alt Yazı</a>
+                    <a href="#">Medya Merkezi</a>
+                    <a href="#">Gizlilik</a>
+                    <a href="#">Bize Ulaşın</a>
+                </div>
+                <div class="column">
+                    <a href="#">Sesli Betimleme</a>
+                    <a href="#">Yatırımcı İlişkileri</a>
+                    <a href="#">Yasal Hükümler</a>
+                </div>
+                <div class="column">
+                    <a href="#">Yardım Merkezi</a>
+                    <a href="#">İş İmkanları</a>
+                    <a href="#">Çerez Tercihleri</a>
+                </div>
+                <div class="column">
+                    <a href="#">Hediye Kartları</a>
+                    <a href="#">Kullanım Koşulları</a>
+                    <a href="#">Kurumsal Bilgiler</a>
+                </div>
+            </div>
+            <div class="service-code">
+                <button>Hizmet Kodu</button>
+            </div>
+            <div class="copyright">
+                © 1997-2021 Netflix, Inc. (i-062d573a0ee099242)
+            </div>
+        </footer>
     </div>
-        
-    <div>
-        <p id="name-2">Top 10 in your country &gt</p>
-        <section class="section-2">
-            <img src="./assets/Rank - 01.png">
-            <img src="./assets/section 2.1.png">
-            <img src="./assets/Rank - 02.png">
-            <img src="./assets/section 2.2.png">
-            <img src="./assets/Rank - 03.png">
-            <img src="./assets/section 2.3.png">
-            <img src="./assets/Rank - 04.png">
-            <img src="./assets/section 2.4.png">
-            <img src="./assets/Rank - 05.png">
-            <img src="./assets/section 2.5.png">
-            <img src="./assets/Rank - 06.png">
-            <img src="">
-        </section>
     </div>
-        
-    <div>
-        <p id="name-3">Trending now &gt</p>
-        <section class="section-3">
-            <img src="./assets/section 3.1.png">
-            <img src="./assets/section 3.2.png">
-            <img src="./assets/section 3.3.png">
-            <img src="./assets/section 3.4.png">
-            <img src="./assets/section 3.5.png">
-        </section>
-    </div>
-        
-    <div>
-        <p id="name-4">Sci-fi shows &gt</p>
-        <section class="section-4">
-        
-            <img src="./assets/section 4.1.png">
-            <img src="./assets/section 4.2.png">
-            <img src="./assets/section 4.3.png">
-            <img src="./assets/section 4.4.png">
-            <img src="./assets/section 4.5.png">
-        </section>
-    </div>
-</div>
-
-<footer>
-    <div class="social-icons">
-        <a href="#"><img src="./assets/facebook.png"</a>
-        <a href="#"><img src="./assets/instagram.png"</a>
-        <a href="#"><img src="./assets/twitter.png"</a>
-        <a href="#"><img src="./assets/youtube.png"</a>
-    </div>
-    <div class="footer-links">
-        <div class="column">
-            <a href="#">Seslendirme ve Alt Yazı</a>
-            <a href="#">Medya Merkezi</a>
-            <a href="#">Gizlilik</a>
-            <a href="#">Bize Ulaşın</a>
-            <a href="#">Hizmet Kodu</a>
-        </div>
-        <div class="column">
-            <a href="#">Sesli Betimleme</a>
-            <a href="#">Yatırımcı İlişkileri</a>
-            <a href="#">Yasal Hükümler</a>
-        </div>
-        <div class="column">
-            <a href="#">Yardım Merkezi</a>
-            <a href="#">İş İmkanları</a>
-            <a href="#">Çerez Tercihleri</a>
-        </div>
-        <div class="column">
-            <a href="#">Hediye Kartları</a>
-            <a href="#">Kullanım Koşulları</a>
-            <a href="#">Kurumsal Bilgiler</a>
-        </div>
-    </div>
-    <div class="copyright">
-        &copy; 1997-2021 Netflix, Inc. (i-062d573a0ee099242)
-    </div>
-</footer>
 </body>
 </html>
